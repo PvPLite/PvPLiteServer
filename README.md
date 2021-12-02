@@ -6,5 +6,13 @@
 
    A fork of [Purpur](https://github.com/pl3xgaming/Purpur) that adds functionality to the PvPLite Client.
 
+Coming soon...
+
+PvPLite-Server applies git patches to the default Pupur and PaperMC server and API.
+
+Adding functionality such as Client-Side anticheat and other preformance improvements.
+
+See CONTRiBUTING.md for a build guide and how to use patches.
+
 
 
