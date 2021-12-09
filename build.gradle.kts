@@ -55,18 +55,18 @@ subprojects {
 }
 
 paperweight {
-    serverProject.set(project(":Purpur-Server"))
+    serverProject.set(project(":PvPLiteServer"))
 
     usePaperUpstream(providers.gradleProperty("paperCommit")) {
         withPaperPatcher {
             apiPatchDir.set(layout.projectDirectory.dir("patches/api"))
-            apiOutputDir.set(layout.projectDirectory.dir("Purpur-API"))
+            apiOutputDir.set(layout.projectDirectory.dir("PvPLite-API"))
 
             remapRepo.set("https://maven.fabricmc.net/")
             decompileRepo.set("https://files.minecraftforge.net/maven/")
 
             serverPatchDir.set(layout.projectDirectory.dir("patches/server"))
-            serverOutputDir.set(layout.projectDirectory.dir("Purpur-Server"))
+            serverOutputDir.set(layout.projectDirectory.dir("PvPLite-Server"))
         }
     }
 }
