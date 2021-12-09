@@ -6,4 +6,4 @@ pluginManagement {
 }
 
 rootProject.name = "PvPLiteServer"
-include("Purpur-API", "Purpur-Server")
+include("PvPLite-API", "PvPLite-Server")
