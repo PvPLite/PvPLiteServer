@@ -15,5 +15,3 @@ Adding functionality such as Client-Side anticheat and other preformance improve
 See CONTRIBUTING.md for a build guide and how to use patches.
 
 
-
-
