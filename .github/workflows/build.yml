@@ -1,5 +1,15 @@
 name: Build
-on: [ push, pull_request ]
+on:
+  push:
+    branches:
+      - 'ver/1.17.1'
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      upload_artifact:
+        description: 'Upload artifact to this run? [yes | no]'
+        required: false
+        default: 'yes'
 
 jobs:
   build:
@@ -18,3 +28,9 @@ jobs:
         run: ./gradlew applyPatches --stacktrace
       - name: Build
         run: ./gradlew build --stacktrace
+      - name: Upload Artifact
+        if: ${{ contains(github.event.inputs.upload_artifact, 'yes') }}
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: PvPLiteServer-1.17.1-R0.1-SNAPSHOT.jar
+          path: PvPLite-Server/build/libs/PvPLiteServer-1.17.1-R0.1-SNAPSHOT.jar
