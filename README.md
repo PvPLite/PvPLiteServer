@@ -12,7 +12,8 @@ PvPLite-Server applies git patches to the default Pupur and PaperMC server and A
 
 Adding functionality such as Client-Side anticheat and other preformance improvements.
 
-See CONTRiBUTING.md for a build guide and how to use patches.
+See CONTRIBUTING.md for a build guide and how to use patches.
+
 
 
 
