@@ -1,8 +1,11 @@
 <div align="center">
 
 ## PvPLite-Server
+   
+## NOTE: Only use the branch ver/1.17.1 as it is the only updated one with security updates
+## Using the other branches can put you at risk for exploits and RCE.
 
-[![LGPL-2.1 License](https://img.shields.io/github/license/PvPLite/PvPLite-Server?&logo=github)](License)
+[![LGPL-2.1 License](https://img.shields.io/github/license/PvPLite/PvPLiteServer?&logo=github)](License)
 
    A fork of [Purpur](https://github.com/pl3xgaming/Purpur) that adds functionality to the PvPLite Client.
 
