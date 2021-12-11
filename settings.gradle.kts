@@ -5,5 +5,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "PvPLiteServer"
+rootProject.name = "PvPLite-Server"
 include("PvPLite-API", "PvPLite-Server")
