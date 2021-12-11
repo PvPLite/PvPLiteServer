@@ -1,0 +1,19 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: EthanDevelops <66741050+EthanDevelops@users.noreply.github.com>
+Date: Sat, 11 Dec 2021 05:36:33 +0000
+Subject: [PATCH] [PATCH] Rebranding
+
+
+diff --git a/build.gradle.kts b/build.gradle.kts
+index e34ba0b029cada654c64ee560314cfb17dc95581..adf5d9a8b701ba63d1bbebe5304ce2a685439d59 100644
+--- a/build.gradle.kts
++++ b/build.gradle.kts
+@@ -22,7 +22,7 @@ repositories {
+ }
+ 
+ dependencies {
+-    implementation(project(":Purpur-API")) // Airplane // Purpur
++    implementation(project(":PvPLite-API")) // Airplane // Purpur
+     implementation("io.papermc.paper:paper-mojangapi:1.17.1-R0.1-SNAPSHOT") // Airplane
+     // Paper start
+     implementation("org.jline:jline-terminal-jansi:3.21.0")
