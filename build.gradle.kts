@@ -57,7 +57,7 @@ subprojects {
 }
 
 paperweight {
-    serverProject.set(project(":PvPLiteServer"))
+    serverProject.set(project(":PvPLite-Server"))
 
     usePaperUpstream(providers.gradleProperty("paperCommit")) {
         withPaperPatcher {
